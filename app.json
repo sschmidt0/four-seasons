@@ -1,28 +1,40 @@
 {
   "expo": {
     "name": "four-seasons",
+    "description": "An educational app to learn to connect the months to the four seasons in a ludical way.",
     "slug": "four-seasons",
+    "owner": "sdtschmidt",
     "version": "1.0.0",
+    "sdkVersion": "1.0.0",
     "orientation": "portrait",
+    "platforms": ["android"],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#831100"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sdtschmidt.fourseasons"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#831100"
+      },
+      "versionCode": 1,
+      "package": "com.sdtschmidt.fourseasons"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "38c17ce2-b7da-4e8d-a58e-9a7dd2bdae1e"
+      }
     }
   }
 }
